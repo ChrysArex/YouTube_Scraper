@@ -7,9 +7,9 @@ path_json = 'rest.json'
 with open(path_json, encoding="utf8") as f:
     service = json.load(f)
 
-api_key_1 = "AIzaSyDOTBQTTYIvqcXB0vwzABuWqhCoFiXw0Uk"
-api_key_2 = 'AIzaSyBn73uvev25PAW5UUvJdgemlUtdW1551ac'
-api_key_3 = "AIzaSyBUM6Cc5Rz40zivvBuZ-L1-oqnUwHjnx1c"
+api_key_1 = XXX
+api_key_2 = XXX
+api_key_3 = XXX
 
 youtube = discovery.build_from_document(service, developerKey=api_key_1)
 youtube2 = discovery.build_from_document(service, developerKey=api_key_2)
